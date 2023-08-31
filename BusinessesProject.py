@@ -92,6 +92,5 @@ businesses_categories_countries = businesses.merge(countries,on='country_code') 
 # Sort businesses_categories_countries from oldest to most recent
 businesses_categories_countries = businesses_categories_countries.sort_values('year_founded')
 # Create the oldest by continent and category DataFrame
-print('aaaaaaaaaaaaaaa')
 oldest_by_continent_category = businesses_categories_countries[['continent','category','year_founded']].groupby(by=['continent','category'],as_index=True)['year_founded'].min()
 print(oldest_by_continent_category.head(10))
