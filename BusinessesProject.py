@@ -1,6 +1,7 @@
-#-----Business DataCamp Project
+#-----Business DataCamp Project-----#
 #A practice assignment from DataCamp where I execute several data manipulations to practice my skills
 #Downloaded the data from Datacamp and saved it to my computer
+
 
 #-----Install packages
 #run the following in the command line in the virtual environment:
